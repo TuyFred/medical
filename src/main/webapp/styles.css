@@ -1,0 +1,358 @@
+
+body {
+    width:100%;
+   background-position: center;
+  background-image: url("images/h.jpg");
+  background-size: cover;
+  height: 109vh;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    width: 50px;
+
+}
+.body{
+    background-image: url("images/1.jpg");
+
+}
+    
+
+.main{
+    position: relative;
+  width:100px;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar{
+    width: 300x;
+    height: 70px;
+    margin: auto;
+    font-family: cambria;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+
+
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    color: white;
+}
+.icon{
+    width: 100%;
+    float: left;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    color:blue;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    padding-left: none;
+    float: center;
+    padding-top: none;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: none;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 20px;
+    transition: 0.4s ease-in-out;
+
+
+}
+ul li:hover{
+    color:orangered;
+}
+.search{
+    width: 150px;
+    float: left;
+    margin-left: 0;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+
+     
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top:none;
+    color:black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 20x;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+ .btn{
+     width:100px;
+     height: 20px;
+     background: #ff7200;
+     border: 2px solid #ff7200;
+     margin-top: 13px;
+     color: #fff;
+     font-size: 15px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+
+ }
+ .btn:focus{
+     outline:none;
+
+ }
+ .srch{
+     outline: none;
+ }
+ .content{
+     width:1200px;
+     height:auto;
+     margin: auto;
+     color:whitesmoke;
+     margin-bottom: none;
+     margin-top: 0px;
+     position: absolute;
+     top: 30%;
+ }
+ .content .par{
+     padding-left: 20px;
+     padding-bottom: 25px;
+     font-family: Arial;
+     letter-spacing: 1.2px;
+
+ }
+ .content .h1{
+     font-family: 'Times New Roman';
+     font-size: 50px;
+     padding-left: 20px;
+     margin-top: 9%;
+     letter-spacing: 2px;
+ }
+ .content .cn{
+     width: 160px;
+     height: 20px;
+     background: yellowgreen;
+     border: none;
+     margin-bottom: 10px;
+     margin-left: 20px;
+      font-size-adjust: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+
+
+ }
+ .content .cn a{
+     text-decoration: none;
+     color: black;
+     transition: .3s ease;
+
+ }
+ .cn:hover{
+     background-color: white;
+
+ }
+ .content span{
+     color: black;
+     font-size: 25px;
+
+
+ }
+ .form{
+     width: 430px;
+     height: 460px;
+     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+     position:absolute;
+     top: none;
+     left: 25%;
+     border-radius: 10px;
+     padding: 25px; 
+ }
+ .form h2{
+     width: 420px;
+     font-family: Arial;
+     text-align: center;
+     color: #ff7200;
+     font-size: 15px;
+     background-color: #fff;
+     border-radius: 10px;
+     margin: 2px;
+     padding: 8px;  
+
+ }
+ .form input{
+     width:270px;
+     height: 15px;
+     background: transparent;
+     border:1px solid #ff7200;
+     /* border-top: none;
+     border-right: none;
+     border-right: none; */
+     color: #000 ;
+     font-size: 15px;
+     letter-spacing:1px;
+     margin-top: 30px;
+     font-family: cambria;
+
+ }
+ .form input:focus{
+     outline: none;
+ }
+ ::placeholder{
+     color: #fff;
+     font-family: Arial;
+       
+
+ }
+ .btn{
+     width: 240;
+     height: 40px;
+     background: #ff7200;
+     border: none;
+     margin-top: 30px;
+     font-size: 18px;
+     border-radius: 10px;
+     cursor: pointer;
+     color: #fff;
+     transition: 0.4s ease;
+    
+
+ }
+ .btn:hover{
+     background: #fff;
+     color:#ff7200;
+ }  
+ .btn a{
+     text-decoration: none;
+     color: black;
+     font-weight: center;
+
+ }
+ .form .link{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     padding-top:20px;
+     text-align: center;
+
+ }
+ .form .link a{
+     text-decoration: none;
+     color:black;
+ }
+ .liw{
+     padding-top: 15px;
+     padding-bottom: 10px;
+     text-align: center;
+
+      
+ }
+ .icon a{
+     text-decoration: none;
+     color:white;
+
+ }
+ .icon ion-icon{
+     color:white;
+     font-size: 30px;
+     padding-left: 14px;
+     padding-top: 25px;
+     transition: 0.3s ease;
+ }
+ .icon ion-icon:hover{
+     color: #ff7200;
+ }
+ .header-login{
+    color:black;
+    font-size: 20px;
+    font-family: cambria;
+    margin: auto;
+    margin-left: 35%;
+ }   
+ .wrapper{
+    background: whitesmoke;
+    width: 35%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+ }
+ .input-box{
+     padding-bottom: 6px;   
+ }
+
+ .input-box input {
+     margin-bottom: 15px;
+     font-family: sans-serif;
+     font-size: 12;
+ }
+ .header{
+    color:#ff7200;
+    font-size: 20px;
+    font-family: cambria;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: none;
+    padding-top: 25px;
+ }

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("images/h.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #0066cc; /* Vibrant blue */
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Cambria;
+            position: relative;
+        }
+
+        .navbar .logo {
+            color: white;
+            font-size: 22px;
+            font-family: 'Arial Narrow Bold';
+            position: absolute;
+            left: 20px; /* Positioned to the left side */
+        }
+
+        .navbar .menu ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar .menu ul li {
+            margin-left: 20px;
+        }
+
+        .navbar .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .navbar .menu ul li a:hover {
+            color: #ffcc00; /* Hover color */
+        }
+
+        .navbar .auth {
+            position: absolute;
+            right: 20px; /* Positioned to the far right */
+        }
+
+        .navbar .auth a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center; /* Center the content */
+            align-items: center;
+            height: calc(100vh - 70px); /* Adjusted height to fit content below navbar */
+            text-align: center; /* Text aligned to the center */
+            padding: 0 20px;
+        }
+
+        .content {
+            max-width: 600px;
+        }
+
+        .content h1 {
+            font-family: 'Times New Roman';
+            font-size: 40px; /* Increased font size */
+            letter-spacing: 2px;
+            color: whitesmoke;
+        }
+
+        .content .par {
+            font-family: Arial;
+            letter-spacing: 1.2px;
+            color: whitesmoke;
+            margin-top: 20px;
+        }
+
+        .content .cn {
+            width: 180px;
+            height: 45px;
+            background: #32cd32; /* Button background color */
+            border: none;
+            margin-top: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+            margin: 20px auto; /* Center the button */
+        }
+
+        .content .cn a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .content .cn:hover {
+            background-color: white;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px; /* Smaller footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer .social-icons i {
+            margin: 0 10px;
+            color: white;
+            font-size: 20px; /* Adjusted icon size */
+        }
+
+        .footer .social-icons i:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand logo" href="#">ONLINE MEDICAL FACILITY</a>
+        <div class="menu">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="service.html">SERVICE</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctor-team.jsp">DOCTORS</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.jsp">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="auth">
+            <a href="register.jsp" class="btn btn-outline-light"><i class="fas fa-user-plus"></i> Register</a>
+            <a href="login.jsp" class="btn btn-outline-light"><i class="fas fa-sign-in-alt"></i> Login</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="content">
+            <h1>Get Better <br><span>Medical Health</span> <br>Services</h1>
+            <p class="par">A digital platform that streamlines healthcare,<br><br><br><br><br><br>
+            <button class="cn"><a href="#">Learn more</a></button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Online Medical Facility. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
